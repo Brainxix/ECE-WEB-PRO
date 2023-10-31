@@ -1,0 +1,64 @@
+body {
+    background: url("1.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-image: center;
+}
+.signUpBox {
+    background: #35324eb3;
+    padding: 40px;
+    width: 250px;
+    margin-top: 90px;
+    margin-left: 180px;
+    margin: 0 auto;
+}
+form {
+    width: 240px;
+    text-align: center;
+    margin-top: -10;
+}
+input {
+    color: whitesmoke;
+    width: 249px;
+    text-align: center;
+    background: transparent;
+    border: none; 
+    border-bottom: 2px solid white;
+    font-size: 18px;
+    font-weight: 200px;
+    padding: 10px 0;
+    transition: border 0.5s;
+    outline: none;
+    height: 35px;
+}
+button {
+    border: none;
+    width: 190px;
+    color: black;
+    font: size 20px; 
+    height: 25px;
+    padding: 10px 0;
+    border-radius: 25px;
+    cursor: pointer;
+}
+button:hover{
+    background: black;
+    color: white;
+}
+h2 {
+    color: gold;
+}
+a {
+    color: gold;
+}
+a:hover {
+    color: cyan;
+}
+.signIn {
+    color: white;
+}
+::placeholder{
+    color: whitesmoke;
+    opacity: 0.6;
+}

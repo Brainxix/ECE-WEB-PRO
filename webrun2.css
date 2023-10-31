@@ -1,0 +1,397 @@
+*{
+    font-family: 'poppins', sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    outline: none;
+    border: none;
+    text-decoration: none;
+    text-transform: capitalize;
+    transition: all .2s linear;
+    transition: width none;
+}
+
+
+
+
+
+
+html::-webkit-scrollbar{
+    width: 1px;
+}
+
+html::-webkit-scrollbar-track{
+    background: transparent;
+}
+
+html::-webkit-scrollbar-thumb{
+    background: var(black);
+
+}
+
+.header .header1{
+    background: burlywood;
+    padding: 1.5px 9%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.header .header1 .logo{
+    font-size: 2.5rem;
+    font-weight: bolder;
+    color: var(black);
+
+}
+
+.header .header1 .logo i{
+    color: var(black);
+
+
+}
+
+section{
+    padding: 5rem 9%;
+
+}
+
+.heading{
+    text-align: center;
+    margin-bottom: 2rem;
+    position: relative;
+
+}
+
+.heading::before{
+    content: '';
+    position: absolute;
+    top: 50%; left: 0;
+    transform: translateY(-50%);
+    width: 100%;
+    height: .01rem;
+    background: rgba(57, 126, 57, 0.1);
+    z-index: -1;
+
+}
+
+.heading span{
+    font-size: 2rem;
+    padding:  1rem 1rem;
+    color: var(--burlywood);
+    background: transparent;
+    border: 0;
+}
+
+.featured .featured-slider .box{
+    width: 25rem;
+    margin: 2rem 0;
+    position: relative;
+    overflow: hidden;
+    border: var(--border);
+    text-align: center;
+
+}
+.featured .featured-slider .box .icons{
+    border-bottom: var(--border-hover);
+    position: absolute;
+    top: 0; left: 0; right: 0;
+    background: #fff;
+    z-index: 1;
+}
+.featured .featured-slider  .box .icons a{
+    color: var(--black);
+    font-size: 2.2rem;
+    padding: 1.5rem;
+
+}
+
+.featured .featured-slider .box .image{
+    transform: translateY(1.6rem);
+}
+
+.featured .featured-slider .box .icons a:hover{
+    background: var(--green);
+    color:#fff;
+
+}
+
+.featured .featured-slider .box:hover{
+    border: var(--border-hover);
+}
+.featured .featured-slider .box .image{
+    padding: 1rem;
+    background: linear-gradient(15deg, #eee 30%, #fff 30.1%);
+
+}
+.featured .featured-slider .box .image img{
+    height: 25rem;
+}
+
+.home{
+    background: url(bg1.png) no-repeat;
+    background-size: cover;
+    background-position: center;
+
+}
+.home .row{
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 1.5rem;
+}
+.home .row .content{
+    flex: 1 1 42rem;
+}
+.home .row .books-slider{
+    flex: 4 4 35rem; text-align: center;
+    margin-top: 2rem;
+}
+.home .row .books-slider a img{
+    height: 25rem;
+}
+.home .row .books-slider a:hover img{
+    transform: scale(.9);
+
+}
+.home .row .books-slider .stand{
+    width: 100%;
+    margin-top: -2rem;
+}
+.home .row .content h3{
+    color: var(--gold);
+    font-size: 1.5rem;
+    line-height: 2;
+    padding: 1rem 0;
+    
+}
+.home .row .content p{
+    color: var(--light-color);
+    font-size: 1.4rem;
+    line-height: 2;
+    padding: 1rem 0;
+
+}
+.icons-container{
+    display: grid;
+    grid-template-columns: repeat(auto-fit, mimax(25rem, 1fr));
+    gap: 1.5rem;
+
+}
+.icons-container .icons{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+    gap: 1.5;
+    padding:2rem 0;
+
+}
+.icons-container .icons i{
+    font-size: 3.5rem;
+    color: var(--green);
+}
+.icons-container .icons h3{
+    font-size: 2.2rem;
+    color: var(--black);
+    padding-bottom: 5rems;
+}
+.icons-container .icons p{
+    font-size: 1.4rem;
+    color: var(--light-color);
+}
+
+
+
+.log{
+    font-family: Arial,  sans-serifs;
+    font-size: 24px;
+    font-weight: bold;
+    color: burlywood;
+    text-decoration: none;
+    width: 45px;
+    height: 25%;
+    border-radius: 7px;
+    display:inline-block ;
+    opacity: 0.8;
+    transition: opacity 0.1s ease ;
+    align-items: center;
+
+}
+.header .header1 .search-form{
+    width: 50rem;
+    height: 5rem;
+    border: var(border);
+    overflow: hidden;
+    background: burlywood;
+    display: flex;
+    align-items: center;
+    border-radius: 5rem;
+}
+
+.header .header1 .search-form input{
+    font-size: 1.6rem;
+    padding: 0 1.2rem;
+    height: 100%;
+    width: 100%;
+    text-transform: none;
+    color: var(black);
+}
+
+.header .header1 .search-form label{
+    font-size:  2.5rem;
+    padding-right: 1.5rem;
+    color: var(black);
+    cursor: pointer;
+}
+
+.header .header1 .search-form label:hover{
+    color: var(green);
+}
+
+.header .header1 .icons div,
+.header .header1 .icons a{
+    font-size: 2.5rem;
+    margin-left: 1.5rem;
+    color: var(black);
+    cursor: pointer;
+
+}
+.header .header2{
+    background: rgb(155, 212, 155);
+}
+.header .header2 .navbar a{
+    color: black;
+    display: inline-block;
+    padding: 1.2rem;
+    font-size: 1.7rem;
+}
+.header .header2 .navbar a:hover{
+    background: darkgrey;
+}
+body{
+    height: 300rem;
+}
+
+.header .header2 .active{
+    position: fixed;
+    top: 0%;left: 0%;right: 0%;
+    z-index: 1000;
+}
+
+:root{
+    --burlywood: #deb887;
+    --green:#27ae60;
+    --dark-color: #219150;
+    --black:#444;
+    --border-hover:.1rem solid var(--black);
+    --border: .1rem solid rgba(0,0,0,.1);
+    --box-shadow:0 .5rem 1rem rgba(0,0,0, .1);
+
+
+}
+
+#search-btn{
+    display: none;
+}
+
+html{
+    font-size: 60%;
+    overflow-x: hidden;
+    scroll-padding-top: 5rem ;
+    scroll-behavior: smooth;
+}
+
+.bottom-navbar{
+    text-align: center;
+    background: var(--green);
+    position: fixed;
+    bottom: 0; left: 0; right: 0;
+    z-index: 1000;
+}
+.bottom-navbar a {
+    font-size: 2.5rem;
+    padding: 2rem;
+    color: #fff;
+}
+.bottom-navbar a:hover{
+    background: var(--black);
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media (max-width:768px){
+    .header .header2{
+        display: none;
+    }
+    .header .header1{
+        padding: 2rem;
+        box-shadow: var(--box-shadow);
+        position: relative;
+
+    }
+    .header .header1 .search-form{
+        position: absolute;
+        top: -115% ; right: 2rem; width: 90%;
+        box-shadow: var(--box-shadow);
+    }
+    #search-btn{
+        display: inline-block;
+    }
+    .header .header1 .search-form.active{
+        top: 115%;
+    }
+}
