@@ -128,7 +128,7 @@ section{
 }
 
 .home{
-    background: url(bg1.png) no-repeat;
+    background: white; 
     background-size: cover;
     background-position: center;
 
